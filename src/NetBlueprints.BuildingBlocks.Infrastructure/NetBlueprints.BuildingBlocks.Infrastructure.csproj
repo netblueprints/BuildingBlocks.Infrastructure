@@ -1,0 +1,34 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="NetBlueprints.BuildingBlocks.Application" Version="1.0.2" />
+    </ItemGroup>
+
+    <PropertyGroup>
+        <AssemblyName>NetBlueprints.BuildingBlocks.Infrastructure</AssemblyName>
+        <PackageId>NetBlueprints.BuildingBlocks.Infrastructure</PackageId>
+        <Title>NetBlueprints.BuildingBlocks.Infrastructure</Title>
+        <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+        <Authors>NetBlueprints</Authors>
+        <Company>NetBlueprints</Company>
+        <Description>A set of reusable building blocks for implementing the Infrastructure layer in .NET solutions, following Clean Architecture and CQRS principles.</Description>
+        <Summary>A set of reusable building blocks for the Infrastructure layer in .NET applications</Summary>
+        <PackageProjectUrl>https://github.com/netblueprints/BuildingBlocks.Infrastructure</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/netblueprints/BuildingBlocks.Infrastructure</RepositoryUrl>
+        <PackageTags>Infrastructure Layer;CQRS;NetBlueprints;Clean Architecture;Reusable Components</PackageTags>
+        <PackageIcon>icon.jpg</PackageIcon>
+        <Version>1.0.0</Version>
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Include="icon.jpg" Pack="true" Visible="false" PackagePath="" />
+    </ItemGroup>
+
+</Project>
